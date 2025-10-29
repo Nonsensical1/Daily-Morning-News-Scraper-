@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Web Scraper CLI",
+  "description": "A command-line interface styled web application that uses Google's Gemini API with search grounding to scrape and verify information from user-provided websites.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "gemini-web-scraper-cli",
+  "version": "1.0.0",
+  "description": "A command-line interface that uses Google's Gemini API with search grounding to scrape and verify information.",
+  "main": "cli.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node cli.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^1.27.0",
+    "chalk": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
