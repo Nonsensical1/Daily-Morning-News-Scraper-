@@ -62,19 +62,18 @@ yarn start
 
 ## How to Permanently add your API Key to system 
 -    **Windows**
-     ```
-     Ctrl + S or Windows Key-> Click Search
-     ```
-     Search "Edit the system environmental variables"
-     ```
-     Click "Environmental Variables"
-     ```
-     In "User Variables" hit "New"
-     ```
-     Asssign Variable name: "API_KEY" and set the Value to your API Key
-     ```
-     Hit "Ok" and then "Ok" again, then restart cmd or powershell
-     ```
+     1. Ctrl + S or Windows Key-> Click Search
+     
+     2. Search "Edit the system environmental variables"
+     
+     3. Click "Environmental Variables"
+     
+     4. In "User Variables" hit "New"
+     
+     5. Asssign Variable name: "API_KEY" and set the Value to your API Key
+     
+     6. Hit "Ok" and then "Ok" again, then restart cmd or powershell
+     
 ## Available Commands
 
 -   `help`: Shows the help message.
