@@ -1,6 +1,6 @@
 # Gemini Web Scraper CLI
 
-A native command-line interface that uses Google's Gemini API with search grounding to scrape and verify information from user-provided websites.
+A native and Web-app command-line interface that uses Google's Gemini API with search grounding to scrape and verify information from user-provided websites. Native is preferred.
 
 ## Prerequisites
 
@@ -16,8 +16,12 @@ A native command-line interface that uses Google's Gemini API with search ground
     ```bash
     npm install
     ```
-
-3.  **Set up your API Key:**
+     or
+    ```bash
+    yarn install
+    ```
+    
+4.  **Set up your API Key:**
     You must set your Gemini API key as an environment variable. This is a critical step for the application to connect to the Gemini API.
 
     -   **macOS/Linux:**
@@ -50,7 +54,20 @@ or directly with Node.js:
 ```bash
 node cli.mjs
 ```
+or with yarn 
 
+```bash
+yarn start
+```
+
+## How to Permanently add your API Key to system 
+-    **Windows**
+     Ctrl + S or Windows Key-> Click Search
+     Search "Edit the system environmental variables"
+     Click "Environmental Variables"
+     In "User Variables" hit "New"
+     Asssign Variable name: "API_KEY" and set the Value to your API Key
+     Hit "Ok" and then "Ok" again, then restart cmd or powershell
 ## Available Commands
 
 -   `help`: Shows the help message.
