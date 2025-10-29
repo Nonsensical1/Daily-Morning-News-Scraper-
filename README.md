@@ -39,7 +39,7 @@ A native and Web-app command-line interface that uses Google's Gemini API with s
         ```bash
         $env:API_KEY="YOUR_API_KEY_HERE"
         ```
-    *Note: Environment variables set this way are only for the current terminal session. For a permanent solution on Windows, search for "Edit the system environment variables".*
+    *Note: Environment variables set this way are only for the current terminal session.*
 
 ## Running the Application
 
