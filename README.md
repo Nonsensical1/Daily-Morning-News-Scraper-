@@ -1,6 +1,6 @@
 # Gemini Web Scraper CLI
 
-A native and Web-app command-line interface that uses Google's Gemini API with search grounding to scrape and verify information from user-provided websites. Native is preferred.
+A native/web-app command-line interface that uses Google's Gemini API with search grounding to scrape and verify information from user-provided websites. Native is preferred.
 
 ## Prerequisites
 
